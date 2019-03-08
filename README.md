@@ -20,6 +20,14 @@ Step Out  Alt+Left <--  --> Alt+Right  Step In
                     Step Over
 ```
 
+## Time traveling
+
+If you have the ability to time travel, hold down Ctrl as well as Alt when going Up or Down to move forwards and backwards through time.
+
 ## Paste
 
 As a bonus, pasting (Alt-V) the current instruction pointer seems to also work pretty well.
+
+## Contribute
+
+Pull Requests welcome! All suggestions for really ergonomic keybindings considered.
