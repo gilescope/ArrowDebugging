@@ -1,4 +1,3 @@
-# ArrowDebugging
 TL/DR: Keybindings for popular editors so you can quickly try out Arrow Key Debugging.
 
 # Arrow Debugging Manifesto
