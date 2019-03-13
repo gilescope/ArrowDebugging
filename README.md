@@ -1,4 +1,4 @@
-TL/DR: Keybindings for popular editors so you can quickly try out Arrow Key Debugging.
+TL/DR: Keybindings for popular editors so you can quickly enjoy Arrow Key Debugging.
 
 # Arrow Debugging Manifesto
 
@@ -71,6 +71,8 @@ Pull Requests welcome! Especially keen for designs of other types of debugging c
 
    * Virtual Reality - Few have debugged in VR yet, what would the perfect debugging device look like? Personally I think a small lovable puppy that you hold in one hand and stroke with the other to step next could work...but am open to ideas!
    * Once the above PR lands, let's make one in real life. There should be dedicated hardware debugger controllers whether we repurpose console controllers, fancy mice or custom keyboards, let us make debugging a first class citizen.
+
+![](https://www.maxpixel.net/static/photo/2x/Portrait-Dog-Animal-Stroke-Fur-Pet-Cute-3026154.jpg)
 
 ## Disclaimer
 
