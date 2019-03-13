@@ -1,0 +1,55 @@
+<UserSettings>
+    <ApplicationIdentity version="10.0"/>
+    <ToolsOptions>
+        <ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
+    </ToolsOptions>
+    <Category name="Environment_Group" RegisteredName="Environment_Group">
+        <Category name="Environment_KeyBindings"
+            Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}"
+            Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}"
+            RegisteredName="Environment_KeyBindings"
+            PackageName="Visual Studio Environment Package"
+            >
+            <Version>15.0.0.0</Version>
+            <KeyboardShortcuts>
+                <ScopeDefinitions>
+                    <Scope Name="Text Editor" ID="{8B382828-6202-11D1-8870-0000F87579D2}"/>
+                </ScopeDefinitions>
+                <UserShortcuts>
+                   <!-- Undo conflicting shortcuts -->
+                   <RemoveShortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="Text Editor">Alt+Up Arrow</RemoveShortcut>
+                   <RemoveShortcut Command="ReSharper.ReSharper_GotoNextMethod" Scope="Text Editor">Alt+Down Arrow</RemoveShortcut>
+                   <RemoveShortcut Command="Edit.MoveSelectedLinesUp" Scope="Text Editor">Alt+Up Arrow</RemoveShortcut>
+                   <RemoveShortcut Command="Edit.MoveSelectedLinesDown" Scope="Text Editor">Alt+Down Arrow</RemoveShortcut>
+                   <RemoveShortcut Command="Edit.CompleteWord" Scope="Text Editor">Alt+Right Arrow</RemoveShortcut>
+
+                   <!-- Arrow keys: -->
+                   <Shortcut Command="Debug.Start" Scope="Text Editor">Alt+Up Arrow</ShortCut>
+                   <Shortcut Command="Debug.StepInto" Scope="Text Editor">Alt+Right Arrow</ShortCut>
+                   <Shortcut Command="Debug.StepOver" Scope="Text Editor">Alt+Down Arrow</ShortCut>
+                   <Shortcut Command="Debug.StepOut" Scope="Text Editor">Alt+Left Arrow</ShortCut>
+
+                   <!-- 'Paste' instruction pointer -->
+                   <Shortcut Command="Debug.SetNextStatement" Scope="Text Editor">Alt+V</ShortCut>
+               </UserShortcuts>
+           </KeyboardShortcuts>
+       </Category>
+  </Category>
+</UserSettings>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
