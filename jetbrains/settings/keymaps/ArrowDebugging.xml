@@ -1,0 +1,24 @@
+<keymap version="1" name="ArrowDebugging" parent="Mac OS X 10.5+">
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="SmartSelect" />
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+</keymap>
