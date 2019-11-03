@@ -1,5 +1,7 @@
 TL/DR: Keybindings for popular editors so you can quickly enjoy Arrow Key Debugging.
 
+Update: Now live on [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=gilescope.arrowdebugging)!
+
 # Arrow Debugging Manifesto
 
 For too long now have our fingers suffered the indignity of being banished to the furthest outer reaches of the keyboard. Since eternity debugging has been regarded as a second class citizen, looked down upon by those who prefer to run the code by the power of thought alone. 
