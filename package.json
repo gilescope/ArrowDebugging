@@ -1,11 +1,11 @@
 {
-    "icon": "arrowkeys.jpg",
+    "icon": "arrowkeys.png",
     "repository": "https://github.com/gilescope/arrowdebugging",
     "publisher": "gilescope",
     "name": "arrowdebugging",
     "displayName": "Arrow Key debugging",
     "description": "Use alt + arrow keys to control the debugger",
-    "version": "0.2.0",
+    "version": "0.3.5",
     "engines": {
         "vscode": "^1.38.0"
     },
@@ -14,6 +14,12 @@
     ],
     "contributes": {
         "keybindings": [
+            {
+                "key": "-workbench.action.previousEditor"
+            },
+            {
+                "key": "-workbench.action.nextEditor"
+			},
             {
                 "key": "alt+up",
                 "command": "workbench.action.debug.continue",
@@ -33,7 +39,15 @@
                 "key": "alt+right",
                 "command": "workbench.action.debug.stepInto",
                 "when": "inDebugMode"
+            },
+            {
+                "key": "alt+up",
+                "command": "workbench.action.debug.start",
+                "when": "!inDebugMode"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^1.74.0"
     }
 }
