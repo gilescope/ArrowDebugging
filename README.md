@@ -39,6 +39,22 @@ If you have the ability to time travel, hold down Ctrl as well as Alt when going
 As a bonus, pasting (Alt-V) the current instruction pointer seems to also work pretty well.
 (VSCode doesn't yet support setting the next statement, but recent pycharm relases can)
 
+## VSCode
+
+Currently it doesn't seem possible to undo keybindings in an extension, so you will have to paste these into your
+keybindings.json manually for now:
+
+```
+{
+    "key": "alt+right",
+	"command": "-workbench.action.nextEditor"
+},
+{
+	"key": "alt+left",
+    "command": "-workbench.action.previousEditor"
+}
+```
+
 ## ViM Mode
 
 Obviously life wouldn't be worth living if we didn't have Vi keybindings also. If you're stepping through a debugger in Vi (anything's possible in Vi) or if your in Vi mode for your favorite editor then you too can have arrow key debugging:

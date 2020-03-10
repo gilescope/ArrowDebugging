@@ -5,7 +5,7 @@
     "name": "arrowdebugging",
     "displayName": "Arrow Key debugging",
     "description": "Use alt + arrow keys to control the debugger",
-    "version": "0.3.5",
+    "version": "0.3.6",
     "engines": {
         "vscode": "^1.38.0"
     },
@@ -14,12 +14,6 @@
     ],
     "contributes": {
         "keybindings": [
-            {
-                "key": "-workbench.action.previousEditor"
-            },
-            {
-                "key": "-workbench.action.nextEditor"
-			},
             {
                 "key": "alt+up",
                 "command": "workbench.action.debug.continue",
@@ -44,6 +38,11 @@
                 "key": "alt+up",
                 "command": "workbench.action.debug.start",
                 "when": "!inDebugMode"
+            },
+            {
+                "key": "alt+v",
+                "command": "debug.jumpToCursor",
+                "when": "inDebugMode"
             }
         ]
     },
